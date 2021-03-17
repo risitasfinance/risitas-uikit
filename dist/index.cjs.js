@@ -2744,21 +2744,21 @@ var ResetCSS = styled.createGlobalStyle(templateObject_1 || (templateObject_1 = 
 var templateObject_1;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#972e55",
+    failure: "#ff492e",
+    primary: "#ff582e",
     primaryBright: "#972e55",
     primaryDark: "#972e55",
-    secondary: "#222222",
+    secondary: "#F1F1F1",
     success: "#31D0AA",
     warning: "#972e55",
 };
 var brandColors = {
     binance: "#972e55",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#ce4073", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#222222", textDisabled: "#BDC2C4", textSubtle: "#ffffff", borderColor: "#E9EAEB", card: "#ce4073", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ff582e", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#054664", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#F1F1F1", textDisabled: "#BDC2C4", textSubtle: "#ffffff", borderColor: "#E9EAEB", card: "#054664", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#222222", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#ce4073", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#F1F1F1", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#054664", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
